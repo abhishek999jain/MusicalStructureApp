@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.chippy.letsandroid.musicalstructureapp.ListOfSong">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:background="#82B1FF"
+            android:text="list of song" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="146dp"
+            android:text="In this activity the user will see a list of songs stored in the device by using getExternalStorageDirectory();
+        " />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        android:text="@string/now" />
+
+
+</RelativeLayout>
+
+

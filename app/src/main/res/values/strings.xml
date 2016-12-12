@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+    <string name="hello_world">Music Player</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="main_array">
+        <item>Artists</item>
+        <item>Albums</item>
+        <item>Playlist</item>
+    </string-array>
+
+    <string name="now">Now Playing</string>
+    <string name="title_activity_list_of_artists">LIST OF ARTISTS</string>
+    <string name="title_activity_albms_list">ALBUM LIST</string>
+    <string name="title_activity_play_list">PLAYLIST</string>
+    <string name="history">HISTORY</string>
+
+    <string-array name="artists">
+        <item>AR Rahman</item>
+        <item>Lucky Ali</item>
+        <item>Sunidhi Chauhan</item>
+    </string-array>
+    <string-array name="album">
+        <item>AR Rahman1</item>
+        <item>Lucky Ali1</item>
+        <item>Sunidhi Chauhan1</item>
+    </string-array>
+    <string-array name="playlist">
+        <item>AR Rahman2</item>
+        <item>Lucky Ali2</item>
+        <item>Sunidhi Chauhan2</item>
+    </string-array>
+
+    <string name="title_activity_switch">Switch</string>
+    <string name="title_activity_now_playing">NowPlaying</string>
+    <string name="title_activity_list_of_song">ListOfSong</string>
+
+</resources>
